@@ -62,11 +62,11 @@
         <glassfish.version>2.25.1</glassfish.version>
         <jerseybundle.version>1.19.3</jerseybundle.version>
         <httpcompontents.version>4.5.3</httpcompontents.version>
-        <json.version>20160810</json.version>
+        <json.version>20230227</json.version>
         <jackson.version>2.8.7</jackson.version>
         <jacksonanotation.version>2.8.0</jacksonanotation.version>
         <commonio.version>2.5</commonio.version>
-        <bots.version>3.5</bots.version>
+        <bots.version>6.4.0</bots.version>
     </properties>
 
     <dependencyManagement>
@@ -301,7 +301,7 @@
                 </executions>
                 <configuration>
                     <rules>
-                        <DependencyConvergence />
+                        <DependencyConvergence/>
                     </rules>
                 </configuration>
             </plugin>
