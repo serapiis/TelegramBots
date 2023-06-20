@@ -67,8 +67,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <bots.version>3.5</bots.version>
         <commonslang.version>3.5</commonslang.version>
-        <mapdb.version>3.0.4</mapdb.version>
-        <guava.version>19.0</guava.version>
+        <mapdb.version>3.0.6</mapdb.version>
+        <guava.version>32.0.0-android</guava.version>
     </properties>
 
     <dependencies>
@@ -230,7 +230,7 @@
                 </executions>
                 <configuration>
                     <rules>
-                        <DependencyConvergence />
+                        <DependencyConvergence/>
                     </rules>
                 </configuration>
             </plugin>
