@@ -59,7 +59,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <bots.version>3.5</bots.version>
+        <bots.version>6.4.0</bots.version>
     </properties>
 
     <dependencies>
@@ -193,7 +193,7 @@
                 </executions>
                 <configuration>
                     <rules>
-                        <DependencyConvergence />
+                        <DependencyConvergence/>
                     </rules>
                 </configuration>
             </plugin>
