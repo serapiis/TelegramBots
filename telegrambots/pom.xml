@@ -59,7 +59,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <glassfish.version>2.25.1</glassfish.version>
+        <glassfish.version>2.46</glassfish.version>
         <jerseybundle.version>1.19.3</jerseybundle.version>
         <httpcompontents.version>4.5.3</httpcompontents.version>
         <json.version>20160810</json.version>
@@ -301,7 +301,7 @@
                 </executions>
                 <configuration>
                     <rules>
-                        <DependencyConvergence />
+                        <DependencyConvergence/>
                     </rules>
                 </configuration>
             </plugin>
